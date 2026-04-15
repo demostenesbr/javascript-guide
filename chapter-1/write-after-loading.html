@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Write after Loading HTML</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="intro.js">
+        // document.write() - Após o carregamento da página
+        // O método document.write() é usado para escrever conteúdo HTML diretamente no documento. No entanto, quando chamado após o carregamento da página, ele substitui todo o conteúdo existente, resultando na perda de tudo o que foi carregado anteriormente. Portanto, é importante usar document.write() apenas durante a fase de construção do documento, como dentro de um script no cabeçalho ou corpo da página.
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Write after Loading HTML</h1>
+        <p class="xpto" id="teste">document.write() - Após o carregamento da página</p>
+        <p class="nav-arq" id="referencia">Arquivos exemplo: <a href="onclick.html">&laquo; anterior</a> | <a
+                href="onclick.html">pr&oacute;ximo &raquo;</a></p>
+        <button type="button" onclick="document.write('Escrevendo algo depois do carregamento da página.')">Escrever
+            algo</button>
+    </div>
+</body>

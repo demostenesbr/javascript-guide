@@ -1,0 +1,7 @@
+// Visão geral - A linguagem de marcação HTML é usada para estruturar o conteúdo de uma página web, enquanto a linguagem de script JavaScript é usada para adicionar interatividade e dinamismo a essa página. O código a seguir apresenta exemplos de ambos os tipos de linguagem, destacando como eles podem ser usados para criar funcionalidades específicas em uma página web.
+
+// O primeiro exemplo é uma função JavaScript que gera um número aleatório entre dois valores fornecidos pelo usuário. A função calcula o total de números possíveis entre os valores a e b, gera um número aleatório dentro desse intervalo e exibe o resultado em um alerta.
+
+// Manipular o navegador: Com o JavaScript, podemos acessar e manipular o conteúdo de uma página web, como elementos HTML, estilos CSS e eventos do usuário. O segundo exemplo mostra como usar expressões regulares para encontrar letras maiúsculas específicas em uma string e exibir os resultados em alertas.
+
+// O terceiro exemplo é uma função de contagem que incrementa um contador a cada segundo e exibe o valor atualizado em um campo de formulário. A função usa a função setTimeout para criar um temporizador que chama a função contar a cada 1000 milissegundos (1 segundo), permitindo que a contagem continue indefinidamente até que seja interrompida.
